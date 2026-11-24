@@ -1,0 +1,16 @@
+# Never let git rewrite line endings inside Cadence data.
+* -text
+
+# OpenAccess / Cadence databases cannot be merged line by line.
+*.oa     binary
+*.dm     binary
+*.sdb    binary
+*.state  binary
+*.png    binary
+*.pdf    binary
+
+# Text files people edit by hand.
+*.md            text eol=lf
+*.sh            text eol=lf
+.gitignore      text eol=lf
+.gitattributes  text eol=lf
